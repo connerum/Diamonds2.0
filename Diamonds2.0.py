@@ -5,14 +5,11 @@ from twilio.twiml.voice_response import Play, VoiceResponse
 from twilio.rest import Client
 from collections import Counter
 import random
-#Client Access:xeSv5omFfYVT0tIeJFtFzNZgVIaqA72afMae0Aoqb7YhzVjTaDlbK9mDmtNcuu4E
-#Client Secret:UFPBaLhnQdlNQQHi4ATk0Huh_1ZrFXSu47HgsVuatv1Q3eN_SNkDjWo1bRVZRTnPgk37RfKbmdTJbFwUkgFiCw
-#Client ID: Uf3rZpiOkF1CWznU_Z3LO9sGcB1PmZgP6L-BN6LKidGpKrTxC-1wOiXyoT0MFbeY
 
 
 app = Flask(__name__)
-ACCOUNT_SID = "ACb5537084e51524aa6cbb9b4ccdf0c9fc"
-AUTH_TOKEN = "4136e7983784112fd765705d55a023e6"
+ACCOUNT_SID = ""
+AUTH_TOKEN = ""
 client = Client(ACCOUNT_SID, AUTH_TOKEN)
 dice = (u"\U0001F3B2")
 diamond = (u"\uE035")
